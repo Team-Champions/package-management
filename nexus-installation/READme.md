@@ -51,6 +51,8 @@ sudo chmod -R 775 /opt/sonatype-work
 
 ```sh
 vi /opt/nexus/bin/nexus.rc
+##make sure the file is like this:
+ run_as_user="nexus"
 ```
 
 ##  CONFIGURE NEXUS TO RUN AS A SERVICE 
